@@ -1,0 +1,13 @@
+1. Algoritmos eficientes:
+A BFS (Busca em Largura) e a IDFS (Busca em Profundidade Iterativa) são eficientes quando o custo dos passos é o mesmo. Os resultados mostram que, conforme o problema cresce, o tempo de processamento aumenta de forma consistente com essa eficiência. A DFS com profundidade limitada (10 e 100) tem tempos baixos, mas isso é por conta da limitação de profundidade, não pela eficiência.
+
+2. Algoritmos completos:
+A BFS e a IDFS são completas e sempre encontram solução, como mostram os resultados. A DFS com profundidade limitada (10 e 100) falha para objetivos maiores, o que é esperado, já que não explora profundamente o suficiente.
+
+3. Travamento por falta de memória:
+A BFS trava para objetivos maiores que 47, mostrando “NaN”. Isso acontece porque ela precisa armazenar muitos nós na memória, e, quando o problema cresce muito, a memória esgota.
+
+4. Menor tempo de processamento:
+A DFS com profundidade limitada (10 e 100) é a mais rápida, pois explora menos o espaço de busca. Porém, essa rapidez vem ao custo de ser incompleta e não garantir a melhor solução.
+
+ Portanto podemos observar que para problemas pequenos, todas as buscas têm desempenho parecido, mas as diferenças ficam mais claras à medida que o problema cresce.
